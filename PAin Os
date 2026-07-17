@@ -1,1 +1,112 @@
+<div class="terminal-workspace">
+  
+  <!-- PANEL 1: PAIN PROTOCOL / OSCILLATOR LAYER -->
+  <section class="protocol-panel">
+    <div class="oscillator-brand">
+      <div class="oscillator-circle">
+        <svg class="wave-svg" viewBox="0 0 100 100">
+          <!-- Circular Track Text -->
+          <path id="textPath" d="M 50,50 m -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="none"/>
+          <text class="circle-text">
+            <textPath href="#textPath" startOffset="50%" text-anchor="middle">THE BUMZ OSCILLATOR • MATRIX MULTIPLEX •</textPath>
+          </text>
+          <!-- Inner Waveform Lines -->
+          <path d="M30 50 Q 40 20, 45 70 T 55 30 T 62 65 T 70 50" fill="none" stroke="#39ff14" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <div class="oscillator-center-tag">OSCILLATOR</div>
+      </div>
+    </div>
+    <h1 class="protocol-title">PAIN PROTOCOL</h1>
+    <p class="protocol-subtitle">AUTONOMOUS ARCHITECTURE v8.1</p>
+    <button class="gold-outline-btn">INITIALIZE SYNC</button>
+  </section>
 
+  <!-- PANEL 2: CONTENT ENGINE REGISTRY (THE MUSIC TOOL) -->
+  <section class="registry-panel">
+    <div class="registry-card">
+      <h2 class="registry-title">Content Engine Registry</h2>
+      
+      <div class="form-group">
+        <label class="field-label">Project Name</label>
+        <input type="text" class="dark-input" placeholder="e.g., PAIN_MADE_ME_RICH_01">
+      </div>
+
+      <div class="form-group">
+        <label class="field-label">Engine Module Mode</label>
+        <div class="select-wrapper">
+          <select class="dark-select">
+            <option value="music">Music Tool</option>
+            <option value="thesis">Thesis Engine</option>
+            <option value="infrastructure">Labor Foundry</option>
+          </select>
+        </div>
+      </div>
+
+      <button class="gold-block-btn">Initialize Project</button>
+    </div>
+  </section>
+
+  <!-- PANEL 3: PAIN.OS COMMUNITY ENGINE -->
+  <section class="community-panel">
+    <div class="cyber-border-frame">
+      <!-- Frame Header Navbar -->
+      <div class="frame-header">
+        <div class="frame-logo">● PAIN.OS // COMMUNITY ENGINE</div>
+        <nav class="frame-nav">
+          <a href="#">Vision</a>
+          <a href="#">System</a>
+          <a href="#">Community</a>
+          <a href="#">.ion</a>
+        </nav>
+        <button class="frame-action-btn">ENTER NETWORK</button>
+      </div>
+
+      <!-- Main Split Layout -->
+      <div class="frame-grid">
+        <!-- Left Text Column -->
+        <div class="grid-left">
+          <div class="tech-tag">HUMAN + COMPUTER + AI</div>
+          <h2 class="hero-statement">Turn attention into a scalable creator ecosystem.</h2>
+          <p class="hero-description">
+            PAIN.OS is a creator growth infrastructure designed for entrepreneurs, artists, developers, community leaders, and modern brand owners. We combine AI systems, visual storytelling, gamified progression, community networking, and digital identity into one operating system.
+          </p>
+        </div>
+
+        <!-- Right Form Column -->
+        <div class="grid-right">
+          <div class="join-card">
+            <h3 class="join-title">Join The Community</h3>
+            <p class="join-subtitle">Apply to access the creator network, live events, growth systems, AI tools, and future collaborations.</p>
+            
+            <div class="form-group">
+              <label class="form-tag">FULL NAME</label>
+              <input type="text" class="frame-input" placeholder="Carlton Smith">
+            </div>
+
+            <div class="form-group">
+              <label class="form-tag">EMAIL ADDRESS</label>
+              <input type="email" class="frame-input" placeholder="name@domain.com">
+            </div>
+
+            <div class="form-group">
+              <label class="form-tag">SELECT YOUR ROLE</label>
+              <select class="frame-input frame-select">
+                <option value="" disabled selected>Select execution profile...</option>
+                <option value="creator">Content Creator / Streamer</option>
+                <option value="builder">Infrastructure Builder</option>
+                <option value="architect">Systems Architect</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-tag">WHAT ARE YOU BUILDING?</label>
+              <textarea class="frame-input frame-textarea" placeholder="Describe the automated infrastructure or digital media asset layer you are deploying..."></textarea>
+            </div>
+
+            <button class="neon-sync-btn">Initiate Integration Sync</button>
+            <div class="version-tag">2.0</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
